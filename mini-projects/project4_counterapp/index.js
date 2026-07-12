@@ -1,9 +1,12 @@
-/*this is for use with event listener
 const number = document.getElementById("number")
 const increase = document.getElementById("increase")
 const decrease = document.getElementById("decrease")
 const reset = document.getElementById("reset")
-*/
+
+increase.addEventListener("click", increaseCount)
+decrease.addEventListener("click", decreaseCount)
+reset.addEventListener("click", resetCount)
+
 let count = 0
 
 function increaseCount() {
