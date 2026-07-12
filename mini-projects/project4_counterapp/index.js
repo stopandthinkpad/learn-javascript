@@ -29,8 +29,8 @@ let count = 0
      } else {
              count = 0    
           }
-      updateDisplay()
       */
+      updateDisplay()
     }
     function resetCount() {
       count = 0
